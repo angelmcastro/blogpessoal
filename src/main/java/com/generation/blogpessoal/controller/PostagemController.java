@@ -1,5 +1,6 @@
 package com.generation.blogpessoal.controller;
 
+
 import java.util.List;
 
 import javax.validation.Valid;
@@ -70,6 +71,7 @@ public class PostagemController {
                 .orElse(ResponseEntity.notFound().build());
     }
 }
+
 
 
 

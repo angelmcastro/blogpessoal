@@ -27,7 +27,8 @@ public class Usuario {
 	@NotNull(message = "O nome é obrigatório!")
 	private String nome;
 	
-	@NotBlank(message = "O e-mail é obrigatório!")
+	@Schema(example = "email@email.com.br")
+	@NotNull(message = "O e-mail é obrigatório!")
 	@Email
 	private String usuario;
 	
